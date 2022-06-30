@@ -34,6 +34,9 @@ export default function Work() {
           <h1>Project 6</h1>
           <h5>-front end developer</h5>
         </div>
+        <button>
+          <a>Helpful Tools</a>
+        </button>
       </div>
     </div>
   );

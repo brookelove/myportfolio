@@ -15,6 +15,9 @@ export default function About() {
         <h4>SHOUT OUTS</h4>
         <button>
           <a>Contact me</a>
+          <button>
+            <a>Blog</a>
+          </button>
         </button>
       </div>
       {/* photo container */}

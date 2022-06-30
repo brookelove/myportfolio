@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 export default function Landing() {
   return (
@@ -13,10 +15,9 @@ export default function Landing() {
       </div>
       {/* contaier for the landing link tabs */}
       <div>
-        <h1>Work</h1>
-        <h1>Tools</h1>
-        <h1>About</h1>
-        <h1>Contact</h1>
+        <Link to="/"><h1>Work</h1></Link>
+        <Link to="/about"><h1>About</h1></Link>
+        <Link to="/contact"><h1>Contact</h1></Link>
       </div>
     </div>
   );
