@@ -7,7 +7,6 @@ export default function About() {
       <div className="aboutWords">
         <h1 className="pageTitle">About</h1>
         <h3 className="aboutBio">
-          {" "}
           I'm Brooke. A zoologist, web designer, and organized
         </h3>
         <h4 className="aboutSubTitle">EXPERIENCE</h4>

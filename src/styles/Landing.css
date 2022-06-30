@@ -1,10 +1,14 @@
 @font-face {
-  font-family: "Liber";
-  src: url(fonts/LiberRegular.ttf);
+  font-family: "Migha";
+  src: url(fonts/MighaBlacksemiexpandedcntr-51x2B.otf);
 }
 @font-face {
-  font-family: "Woman";
-  src: url(./fonts/WomanFontBold.ttf);
+  font-family: "Bigthoven";
+  src: url(fonts/Bigthoven-owK5z.otf);
+}
+@font-face {
+  font-family: "Antic";
+  src: url(fonts/AnticDidone-Regular.otf);
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
@@ -48,5 +52,5 @@ body {
 .landingLink {
   color: var(--dark);
   font-size: 600%;
-  font-family: "Liber";
+  font-family: "Bigthoven";
 }

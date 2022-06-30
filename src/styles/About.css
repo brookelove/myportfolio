@@ -19,14 +19,17 @@
   position: absolute;
   margin-top: 25%;
 }
+.aboutBio {
+  font-family: "Antic";
+}
 .pageTitle {
-  font-family: "Liber";
+  font-family: "Bigthoven";
   font-size: 500%;
   color: var(--dark);
 }
 
 .aboutSubTitle {
-  font-family: "Woman";
+  font-family: "Migha";
   font-size: 25px;
   /* color: var(--dark); */
 }
