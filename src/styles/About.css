@@ -1,0 +1,40 @@
+@import url("./Landing.css");
+
+:root {
+  --dark: #715c54;
+  --cream: #f5f1e9;
+}
+.aboutContainer {
+  height: 100vh;
+  background-color: var(--cream);
+}
+.aboutWords {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  flex-direction: column;
+  width: 50%;
+  /* might need ot get rid of positionn and margin depending on how much context I put in here */
+  position: absolute;
+  margin-top: 25%;
+}
+.pageTitle {
+  font-family: "Liber";
+  font-size: 500%;
+  color: var(--dark);
+}
+
+.aboutSubTitle {
+  font-family: "Woman";
+  font-size: 25px;
+  /* color: var(--dark); */
+}
+button {
+  background-color: #d4dde0;
+  color: #4d6879;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: "Liber";
+}

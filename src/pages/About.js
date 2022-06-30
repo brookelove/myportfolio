@@ -1,27 +1,30 @@
 import React from "react";
-
+import "../styles/About.css";
 export default function About() {
   return (
-    <div>
+    <div className="aboutContainer">
       {/* paragraph text container */}
-      <div>
-        <h1>About</h1>
-        <h2> I'm Brooke. A zoologist, web designer, and organized</h2>
-        <h4>EXPERIENCE</h4>
-        <h4>SKILLS</h4>
+      <div className="aboutWords">
+        <h1 className="pageTitle">About</h1>
+        <h3 className="aboutBio">
+          {" "}
+          I'm Brooke. A zoologist, web designer, and organized
+        </h3>
+        <h4 className="aboutSubTitle">EXPERIENCE</h4>
+        <h4 className="aboutSubTitle">SKILLS</h4>
         <button>
           <a>My Resume</a>
         </button>
-        <h4>SHOUT OUTS</h4>
+        <h4 className="aboutSubTitle">SHOUT OUTS</h4>
         <button>
           <a>Contact me</a>
-          <button>
-            <a>Blog</a>
-          </button>
+        </button>
+        <button>
+          <a>Blog</a>
         </button>
       </div>
       {/* photo container */}
-      <div>{/* image of myself that looks great */}</div>
+      <div className="aboutPhoto">{/* image of myself that looks great */}</div>
     </div>
   );
 }

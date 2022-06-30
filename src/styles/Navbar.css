@@ -1,0 +1,36 @@
+@import url("./Landing.css");
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+.innerNav {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: space-around;
+}
+.line {
+  width: 1px;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  background-color: #354449;
+  /* transform: rotate(-90deg); */
+}
+.navLink {
+  color: #354449;
+  font-size: 12px;
+  transform: rotate(-90deg);
+}
+.leftlink {
+  padding: 5px;
+  color: #354449;
+  text-decoration: none;
+}
+.leftlink:hover {
+  text-decoration: line-through;
+}
