@@ -1,0 +1,47 @@
+:root {
+  --dark: #715c54;
+  --cream: #f5f1e9;
+  --med: #b97a63;
+  --complete: #263134;
+}
+.darkBkgrnd {
+  height: 100vh;
+  background-color: var(--complete);
+}
+.workContainer {
+  height: 100vh;
+  display: flex;
+  color: var(--cream);
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.workTextContainer {
+  width: 30%;
+  margin-bottom: 10%;
+}
+.projectContainer {
+  display: flex;
+  margin-bottom: 5%;
+  flex-direction: column;
+}
+.darkTitle {
+  color: var(--med);
+}
+.projectTitle {
+  display: flex;
+  padding: 30px 0 20px 0;
+  font-family: "Bigthoven";
+}
+.projectLink {
+  color: var(--cream);
+  text-decoration: none;
+  font-size: 150%;
+}
+.projectLink:hover {
+  transition-duration: 500ms;
+  transform: skewX(20deg);
+}
+.buttonLink {
+  text-decoration: none;
+  color: inherit;
+}
