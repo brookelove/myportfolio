@@ -15,14 +15,14 @@ export default function About() {
           <h4 className="aboutSubTitle">EXPERIENCE</h4>
           <h4 className="aboutSubTitle">SKILLS</h4>
           <button>
-            <a>My Resume</a>
+            <a className="buttonLink">My Resume</a>
           </button>
           <h4 className="aboutSubTitle">SHOUT OUTS</h4>
           <button>
-            <a>Contact me</a>
+            <a href="/contact" className="buttonLink">Contact me</a>
           </button>
           <button>
-            <a>Blog</a>
+            <a className="buttonLink">Blog</a>
           </button>
         </div>
         {/* photo container */}
