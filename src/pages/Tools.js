@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../styles/Tools.css";
 
 export default function Tool() {
   return (
-    <div>
+    <div className="beigeBckgrd">
       <Navbar />
       <div>
         <h1>Tools</h1>
