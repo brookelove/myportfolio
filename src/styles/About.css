@@ -8,7 +8,7 @@
 .aboutContainer {
   height: 100vh;
   display: flex;
-  color: var(--complete)
+  color: var(--complete);
 }
 .aboutWords {
   display: flex;
@@ -20,18 +20,28 @@
   /* might need ot get rid of positionn and margin depending on how much context I put in here */
 }
 .aboutBio {
-  font-family: "Antic";
+  font-size: 30px;
+  text-align: center;
+  font-family: "Loura";
 }
 .pageTitle {
-  font-family: "Bigthoven";
+  font-family: "Liber";
   font-size: 500%;
   color: var(--dark);
 }
 
 .aboutSubTitle {
-  font-family: "Migha";
-  font-size: 25px;
+  font-family: "Loura";
+  font-size: 30px;
   color: var(--dark);
+}
+.aboutContext {
+  width: 80%;
+}
+.listElement {
+  left: 15%;
+  position: relative;
+  list-style-type: georgian;
 }
 button {
   background-color: #d4dde0;
