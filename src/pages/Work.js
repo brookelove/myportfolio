@@ -26,32 +26,32 @@ export default function Work() {
         {/* container for the project title */}
         <div className="projectContainer">
           <h1 className="projectTitle">
-            <a href="/project1" className="projectLink">
+            <a href="/project01" className="projectLink">
               Battle Trail
             </a>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project2" className="projectLink">
+            <a href="/project02" className="projectLink">
               Evergreen Body Mod
             </a>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project3" className="projectLink">
+            <a href="/project03" className="projectLink">
               Cake Man
             </a>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project4" className="projectLink">
+            <a href="/project04" className="projectLink">
               Project 4
             </a>{" "}
           </h1>
           <h1 className="projectTitle">
-            <a href="/project5" className="projectLink">
+            <a href="/project05" className="projectLink">
               Project 5
             </a>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project6" className="projectLink">
+            <a href="/project06" className="projectLink">
               Project 6
             </a>
           </h1>

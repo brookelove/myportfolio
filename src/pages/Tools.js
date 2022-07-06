@@ -1,6 +1,11 @@
 import React from "react";
 
-export default function Tools() {
-
-    <h1>TOOLS</h1>
+export default function Tool() {
+  return (
+    <div>
+      <div>
+        <h1>Tools</h1>
+      </div>
+    </div>
+  );
 }
