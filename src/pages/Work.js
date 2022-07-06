@@ -3,12 +3,12 @@ import Navbar from "../components/Navbar";
 import "../styles/Work.css";
 export default function Work() {
   return (
-    <div className="darkBkgrnd">
+    <div className="beigeBackgd">
       <div className="workContainer">
         <Navbar />
         <div className="workTextContainer">
           {/* container for the work text */}
-          <h4 className="pageTitle darkTitle">Work</h4>
+          <h4 className="pageTitle">Work</h4>
           <br />
           <p>
             This is some of my greatest works currently. I have decided to show

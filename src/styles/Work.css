@@ -14,7 +14,7 @@
 .workContainer {
   height: 100vh;
   display: flex;
-  color: var(--cream);
+  color: var(--complete);
   justify-content: space-around;
   align-items: flex-end;
 }
@@ -36,7 +36,7 @@
   font-family: "Liber";
 }
 .projectLink {
-  color: var(--cream);
+  color: var(--dark);
   text-decoration: none;
   font-size: 150%;
 }
