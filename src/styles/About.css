@@ -5,8 +5,12 @@
   --cream: #f5f1e9;
   --complete: #354449;
 }
+.aboutBeigeBackgd {
+  height: 150vh;
+  background-color: var(--cream);
+}
 .aboutContainer {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   color: var(--complete);
 }

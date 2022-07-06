@@ -4,6 +4,11 @@
   margin-left: 5%;
   margin-top: 25%;
 }
+.contactOuterDiv {
+  height: 100vh;
+  display: flex;
+  color: var(--complete);
+}
 .contactSubTitle {
   display: flex;
   padding-top: 2%;

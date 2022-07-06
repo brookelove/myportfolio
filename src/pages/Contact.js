@@ -4,8 +4,8 @@ import Navbar from "../components/Navbar";
 
 export default function Contact() {
   return (
-    <div>
-      <div className="aboutContainer">
+    <div className="beigeBackgd">
+      <div className="contactOuterDiv">
         <Navbar />
         <div className="contactContainer">
           <h1 className="pageTitle">bonjour!</h1>
