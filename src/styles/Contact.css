@@ -1,0 +1,28 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 25%;
+}
+.contactSubTitle {
+  display: flex;
+  padding-top: 2%;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 27px;
+  font-family: "Loura";
+}
+.listNone {
+  list-style-type: none;
+  padding-top: 2%;
+}
+.contactLinks {
+    font-size: 20px;
+    font-weight: 400;
+    color: #354449;
+    text-decoration: none;
+}
+.contactLinks:hover {
+    
+    text-decoration: line-through;
+}

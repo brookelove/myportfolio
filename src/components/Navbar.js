@@ -8,21 +8,30 @@ export default function Navbar() {
         <p className="navLink">
           <a
             className="leftlink"
+            target="_blank"
             href="https://www.linkedin.com/in/savien-love-898429230/"
           >
             LI
           </a>
         </p>
-        <p className="navLink">
-          <a className="leftlink" href="https://github.com/brookelove">
+        <p className="navLink ">
+          <a
+            className="leftlink"
+            target="_blank"
+            href="https://github.com/brookelove"
+          >
             GH
           </a>
         </p>
         <p className="navLink">
-          <a className="leftlink">CP</a>
+          <a className="leftlink" target="_blank">
+            CP
+          </a>
         </p>
         <p className="navLink">
-          <a className="leftlink">SO</a>
+          <a className="leftlink" target="_blank">
+            SO
+          </a>
         </p>
         <span className="line"></span>
       </div>

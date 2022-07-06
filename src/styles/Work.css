@@ -8,6 +8,9 @@
   height: 100vh;
   background-color: var(--complete);
 }
+.darkNavLink {
+  color: #cbeefa;
+}
 .workContainer {
   height: 100vh;
   display: flex;
@@ -30,7 +33,7 @@
 .projectTitle {
   display: flex;
   padding: 30px 0 20px 0;
-  font-family: "Bigthoven";
+  font-family: "Liber";
 }
 .projectLink {
   color: var(--cream);

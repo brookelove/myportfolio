@@ -17,9 +17,6 @@ function App() {
         <Route path="/work" element={<Work />} />
       </Routes>
     </BrowserRouter>
-    // <div className="App">
-    //   <Landing />
-    // </div>
   );
 }
 
