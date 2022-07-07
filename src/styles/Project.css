@@ -1,5 +1,5 @@
 .project01LandingBeigeBkgrd {
-  height: 150vh;
+  height: 300vh;
   background-color: var(--cream);
 }
 .ProjectContainer {
@@ -8,12 +8,13 @@
   color: var(--complete);
 }
 .projectTitle {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: "Liber";
-  font-size: 500%;
+  font-size: 400%;
   color: var(--dark);
   position: relative;
-  left: 20%;
+  padding-top: 10%;
 }
 .projectShortBlurb {
   font-size: 130%;
@@ -25,25 +26,58 @@
   justify-content: center;
 }
 .linksToProject {
-    font-size: 20px;
-    color: var(--complete);
-    margin: 30px 100px 0 100px;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--complete);
+  margin: 30px 100px 0 100px;
+  font-weight: 800;
 }
 .linksToProject:hover {
-    text-decoration: line-through;
+  transition: ease-in-out;
+  transition-duration: 2s;
+  text-decoration: line-through;
 }
 .projectSubTitle {
-    font-size: 35px;
-    color: var(--med);
-    font-weight: 1400;
-    font-family: "Woman";
+  font-size: 35px;
+  color: var(--med);
+  font-weight: 1400;
+  font-family: "Woman";
 }
 .projectDescription {
-    width: 95%;
-    font-size: 17px;
-    text-align: center;
+  width: 95%;
+  font-weight: 600;
+  line-height: 200%;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0 5px 0;
 }
 .projectButton {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.project01BigImage {
+  left: 20%;
+  margin: 2%;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  position: relative;
+}
+.project01SmallImage01 {
+  left: 10%;
+  margin-top: 2%;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  position: relative;
+}
+.project01SmallImage02 {
+  left: 40%;
+  /* margin-top: 2%; */
+  width: 300px;
+  height: 400px;
+  bottom: 10%;
+  z-index: 2;
+  display: flex;
+  position: relative;
 }

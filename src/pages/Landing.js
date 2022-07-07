@@ -14,7 +14,7 @@ export default function Landing() {
             <b>BROOKE LOVE</b>
           </p>
           <br />
-          <p>Oriendted Full Stack Developer</p>
+          <p>Passionate Full Stack Developer</p>
           <br />
           <p>
             Currently working on <a>Evergreen Body Mod</a>

@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/Project.css";
-
+import bigImage from "../assets/images/project01/BT_landing.png";
+import smallImage01 from "../assets/images/project01/BT_charselet.png"
+import smallImage02 from "../assets/images/project01/BT_battle.png"
 export default function Project01() {
   return (
     <div className="project01LandingBeigeBkgrd">
@@ -9,6 +11,7 @@ export default function Project01() {
         <Navbar />
         <div>
           <h1 className="projectTitle">Battle Trail</h1>
+
           <br></br>
           <br></br>
           <h3 className="projectShortBlurb">
@@ -16,6 +19,9 @@ export default function Project01() {
             the game
           </h3>
           <br></br>
+          <div className="project01BigImage">
+            <img src={bigImage} alt="Landing Page of Battle Trail" className="project01Image1"/>
+          </div>
           <div className="linksToProjectContainer">
             <a
               href="https://github.com/JaHa675/project-3"
@@ -47,6 +53,12 @@ export default function Project01() {
             joy in the little things will working your way through Battle Trail!
           </p>
           <br></br>
+          <div className="project01SmallImage01">
+            <img src={smallImage01} alt="Character Select" className="project01Image02"/>
+          </div>
+          <div className="project01SmallImage02">
+            <img src={smallImage02} alt="Character Select" className="project01Image02"/>
+          </div>
           <p className="projectDescription">
             During this program used a lot of technologies.A lot of things were
             learned while creating this project by learing React.js and Phaser.
@@ -59,7 +71,6 @@ export default function Project01() {
           <br></br>
           <div className="projectButton">
           <button> <a href="https://battle-trail.herokuapp.com" target="_blank" className="buttonLink">Battle Trail</a>
-            
           </button>
           </div>
         </div>
