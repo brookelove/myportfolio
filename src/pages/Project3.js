@@ -8,6 +8,7 @@ export default function Project03() {
       <Navbar />
       <div>
         <h1>Cake Man</h1>
+        <p>Comming Soon!</p>
       </div>
     </div>
   );

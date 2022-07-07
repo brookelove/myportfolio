@@ -1,0 +1,49 @@
+.project01LandingBeigeBkgrd {
+  height: 150vh;
+  background-color: var(--cream);
+}
+.ProjectContainer {
+  height: 150vh;
+  display: flex;
+  color: var(--complete);
+}
+.projectTitle {
+  text-align: center;
+  font-family: "Liber";
+  font-size: 500%;
+  color: var(--dark);
+  position: relative;
+  left: 20%;
+}
+.projectShortBlurb {
+  font-size: 130%;
+  text-align: center;
+  font-family: "Loura";
+}
+.linksToProjectContainer {
+  display: flex;
+  justify-content: center;
+}
+.linksToProject {
+    font-size: 20px;
+    color: var(--complete);
+    margin: 30px 100px 0 100px;
+}
+.linksToProject:hover {
+    text-decoration: line-through;
+}
+.projectSubTitle {
+    font-size: 35px;
+    color: var(--med);
+    font-weight: 1400;
+    font-family: "Woman";
+}
+.projectDescription {
+    width: 95%;
+    font-size: 17px;
+    text-align: center;
+}
+.projectButton {
+    display: flex;
+    justify-content: center;
+}

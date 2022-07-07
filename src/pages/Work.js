@@ -40,7 +40,7 @@ export default function Work() {
               Cake Man
             </a>
           </h1>
-          <h1 className="projectTitle">
+          {/* <h1 className="projectTitle">
             <a href="/project04" className="projectLink">
               Project 4
             </a>{" "}
@@ -54,7 +54,7 @@ export default function Work() {
             <a href="/project06" className="projectLink">
               Project 6
             </a>
-          </h1>
+          </h1> */}
         </div>
       </div>
     </div>
