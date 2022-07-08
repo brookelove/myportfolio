@@ -1,0 +1,21 @@
+.resumeContainer {
+  display: flex;
+  padding: 40px;
+}
+.resumeContainer .imageContainer {
+  display: flex;
+  justify-content: center;
+}
+.resumeContent {
+  position: relative;
+  left: 20%;
+}
+.downloadBtn {
+  position: relative;
+  left: 30%;
+}
+@media screen and (max-width: 425px) {
+  .react-pdf__Page__canvas {
+    width: 350px !important;
+  }
+}

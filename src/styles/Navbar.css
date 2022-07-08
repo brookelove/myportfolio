@@ -4,9 +4,11 @@
 }
 .nav {
   display: flex;
+  height: 100vh;
+  margin-left: 3%;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
+  margin: 0;
 }
 .innerNav {
   display: flex;
@@ -26,7 +28,7 @@
   color: var(--med);
   font-weight: 400;
   font-size: 15px;
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
 }
 .leftlink {
   padding: 5px;

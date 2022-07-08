@@ -60,7 +60,6 @@ export default function Navbar() {
 
         <span className="line"></span>
       </div>
-      <p className="navLink">© 2022</p>
     </div>
   );
 }

@@ -24,6 +24,7 @@ export default function Work() {
           </button>
         </div>
         {/* container for the project title */}
+        <div className="projectBackContainer"></div>
         <div className="projectContainer">
           <h1 className="projectTitle">
             <a href="/project01" className="projectLink">
@@ -40,12 +41,12 @@ export default function Work() {
               Cake Man
             </a>
           </h1>
-          {/* <h1 className="projectTitle">
-            <a href="/project04" className="projectLink">
-              Project 4
-            </a>{" "}
-          </h1>
           <h1 className="projectTitle">
+            <a href="/project04" className="projectLink">
+              Booklastic
+            </a>
+          </h1>
+          {/*  <h1 className="projectTitle">
             <a href="/project05" className="projectLink">
               Project 5
             </a>

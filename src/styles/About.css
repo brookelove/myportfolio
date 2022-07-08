@@ -1,46 +1,75 @@
 @import url("./Landing.css");
 
 :root {
-  --dark: #715c54;
+  --brown: #715c54;
+  --absent: #1a1919;
   --cream: #f5f1e9;
   --complete: #354449;
 }
 .aboutBeigeBackgd {
   height: 150vh;
-  background-color: var(--cream);
+  background-color: rgb(251, 251, 251);
 }
 .aboutContainer {
   height: 150vh;
   display: flex;
   color: var(--complete);
 }
+.aboutInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
 .aboutWords {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* align-content: center; */
   flex-direction: column;
   width: 50%;
-  /* might need ot get rid of positionn and margin depending on how much context I put in here */
 }
 .aboutBio {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  font-family: "Loura";
+  font-family: "L";
 }
 .pageTitle {
-  font-family: "Liber";
+  font-family: "Loura";
   font-size: 500%;
-  color: var(--dark);
+  color: var(--absent);
 }
-
+.BioTitle {
+  font-family: "Loura";
+  font-size: 700%;
+  color: var(--absent);
+}
+.thickLine {
+  position: relative;
+  left: 20px;
+  top: 30px;
+  width: 5px;
+  height: 50px;
+  transform: rotate(90deg);
+  background-color: #1a1919;
+}
+.aboutRight {
+  position: relative;
+  left: 150px;
+}
+.MyLineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  right: 70px;
+}
 .aboutSubTitle {
   font-family: "Loura";
   font-size: 30px;
-  color: var(--dark);
+  font-weight: 800;
+  color: var(--med);
 }
 .aboutContext {
   width: 80%;
+  font-weight: 600;
 }
 .listElement {
   left: 15%;
@@ -54,5 +83,20 @@ button {
   padding: 10px;
   border-color: #d4dde0;
   border-radius: 30px;
-  font-family: "Bigthoven";
+  font-family: "Liber";
+}
+button:hover {
+  transition-duration: 0.5s;
+  color: #d4dde0;
+  background-color: #4d6879;
+}
+.aboutPhoto {
+  top: 20%;
+  left: 10%;
+  margin: 2%;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  transform: scale(1.3);
 }

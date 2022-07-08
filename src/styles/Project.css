@@ -10,16 +10,16 @@
 .projectTitle {
   display: flex;
   justify-content: center;
-  font-family: "Liber";
+  font-family: "Loura";
   font-size: 400%;
   color: var(--dark);
   position: relative;
   padding-top: 10%;
 }
 .projectShortBlurb {
-  font-size: 130%;
+  font-size: 160%;
   text-align: center;
-  font-family: "Loura";
+  font-family: "L";
 }
 .linksToProjectContainer {
   display: flex;
@@ -80,4 +80,21 @@
   z-index: 2;
   display: flex;
   position: relative;
+}
+.comingSoonBkgrd {
+  height: 100vh;
+  background-color: var(--cream);
+}
+.comingContainer {
+  height: 100vh;
+  display: flex;
+  color: var(--complete);
+}
+.comingSoon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 30%;
 }

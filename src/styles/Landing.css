@@ -14,12 +14,12 @@ body {
 }
 .beigeBackgd {
   height: 100vh;
-  background-color: var(--cream);
+  background-color: rgb(251, 251, 251);
 }
 .landingContainer {
   height: 100vh;
   display: flex;
-  color: var(--dark);
+  color: var(--absent);
   justify-content: space-around;
   align-items: flex-end;
 }
@@ -37,10 +37,10 @@ body {
 }
 .landingLink:hover {
   transition-duration: 500ms;
-  transform: skewX(20deg);
+  text-decoration: underline;
 }
 .landingLink {
-  color: var(--dark);
+  color: var(--absent);
   font-size: 600%;
-  font-family: "Liber";
+  font-family: "Loura";
 }

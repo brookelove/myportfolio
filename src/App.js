@@ -7,6 +7,7 @@ import Work from "./pages/Work";
 import Project01 from "./pages/Project1";
 import Project02 from "./pages/Project2";
 import Project03 from "./pages/Project3";
+import Resume from "./components/Resume";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/tools" element={<Tools />} />
         <Route path="/work" element={<Work />} />
