@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/Project.css";
-import bigImage from "../assets/images/project01/BT_landing.png";
-import smallImage01 from "../assets/images/project01/BT_charselet.png"
-import smallImage02 from "../assets/images/project01/BT_battle.png"
+import P04image from "../assets/images/project04/BL_landing.png";
+import project04image02 from "../assets/images/project04/BL_socket.png";
+import project04image03 from "../assets/images/project04/BL-review.png";
 export default function Project01() {
   return (
     <div className="project01LandingBeigeBkgrd">
@@ -20,7 +20,11 @@ export default function Project01() {
           </h3>
           <br></br>
           <div className="project01BigImage">
-            <img src={bigImage} alt="Landing Page of Battle Trail" className="project01Image1"/>
+            <img
+              src={P04image}
+              alt="Landing Page of Battle Trail"
+              className="project01Image1"
+            />
           </div>
           <div className="linksToProjectContainer">
             <a
@@ -54,10 +58,18 @@ export default function Project01() {
           </p>
           <br></br>
           <div className="project01SmallImage01">
-            <img src={smallImage01} alt="Character Select" className="project01Image02"/>
+            <img
+              src={project04image02}
+              alt="Character Select"
+              className="project01Image02"
+            />
           </div>
           <div className="project01SmallImage02">
-            <img src={smallImage02} alt="Character Select" className="project01Image02"/>
+            <img
+              src={project04image03}
+              alt="Character Select"
+              className="project01Image02"
+            />
           </div>
           <p className="projectDescription">
             During this program used a lot of technologies.A lot of things were
@@ -70,8 +82,16 @@ export default function Project01() {
           <br></br>
           <br></br>
           <div className="projectButton">
-          <button> <a href="https://battle-trail.herokuapp.com" target="_blank" className="buttonLink">Battle Trail</a>
-          </button>
+            <button>
+              {" "}
+              <a
+                href="https://battle-trail.herokuapp.com"
+                target="_blank"
+                className="buttonLink"
+              >
+                Battle Trail
+              </a>
+            </button>
           </div>
         </div>
       </div>
