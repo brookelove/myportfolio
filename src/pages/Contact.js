@@ -31,6 +31,15 @@ export default function Contact() {
                 Github: brookelove
               </a>
             </li>
+            <li>
+              <a
+                className="contactLinks"
+                target="_blank"
+                href="mailto:brookelovedevelops@gmail.com"
+              >
+                Email: brookelovedevelops@gmail.com
+              </a>
+            </li>
           </ul>
         </div>
       </div>

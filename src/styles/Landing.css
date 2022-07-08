@@ -19,6 +19,7 @@ body {
 .landingContainer {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   color: var(--absent);
   justify-content: space-around;
   align-items: flex-end;
