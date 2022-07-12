@@ -9,6 +9,7 @@
 .ProjectContainer {
   height: 150vh;
   display: flex;
+  flex-wrap: wrap;
   color: var(--complete);
 }
 .projectTitle {
@@ -101,4 +102,43 @@
   justify-content: center;
   position: relative;
   left: 30%;
+}
+@media screen and (max-width: 1200px) {
+  .project01LandingBeigeBkgrd {
+    height: 340vh;
+  }
+  .outsideContianer {
+    position: relative;
+    top: -50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .outsideContianer {
+    top: 0;
+  }
+  .nav {
+    height: 23vh;
+  }
+  .project01BigImage {
+    transform: scale(0.6);
+    left: 0;
+  }
+  .projectShortBlurb {
+    width: 90%;
+  }
+  .projectDescription {
+    font-size: 17px;
+    width: 90%;
+  }
+  .project01SmallImage01 {
+    transform: scale(0.7);
+  }
+  .project01SmallImage02 {
+    transform: scale(0.7);
+    left: 10%;
+    bottom: 4%;
+  }
+  .project01LandingBeigeBkgrd {
+    height: 360vh;
+  }
 }

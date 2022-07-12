@@ -7,6 +7,7 @@
 .contactOuterDiv {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   color: var(--complete);
 }
 .contactSubTitle {
@@ -29,4 +30,9 @@
 }
 .contactLinks:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 550px) {
+  .contactContainer {
+    margin-top: -45%;
+  }
 }
