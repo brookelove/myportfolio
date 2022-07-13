@@ -7,17 +7,10 @@
   background-color: var(--cream);
 }
 .ProjectContainer {
-  height: 150vh;
+  /* height: 150vh; */
   display: flex;
-  flex-wrap: wrap;
-  color: var(--complete);
-}
-.ProjectContainer04 {
-  height: 0vh;
-}
-.projectInfo04 {
-  position: relative;
-  bottom: 550px;
+  /* flex-wrap: wrap;
+  color: var(--complete); */
 }
 .projectTitle {
   display: flex;
