@@ -30,7 +30,11 @@ export default function Navbar() {
         {document.location.pathname === "/" && (
           <p className="navLink">
             {/* codepen */}
-            <a className="leftlink" target="_blank">
+            <a
+              className="leftlink"
+              target="_blank"
+              href="https://codepen.io/brookeLove99"
+            >
               CP
             </a>
           </p>
@@ -38,7 +42,11 @@ export default function Navbar() {
         {document.location.pathname === "/" && (
           <p className="navLink">
             {/* stack Overflow */}
-            <a className="leftlink" target="_blank">
+            <a
+              className="leftlink"
+              target="_blank"
+              href="https://stackoverflow.com/users/19544519/brooke-love"
+            >
               SO
             </a>
           </p>

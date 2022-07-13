@@ -7,9 +7,9 @@ import project04image03 from "../assets/images/project04/BL-review.png";
 export default function Project01() {
   return (
     <div className="project04LandingBeigeBkgrd">
-      <div className="ProjectContainer">
+      <div className="ProjectContainer04">
         <Navbar />
-        <div>
+        <div className="projectInfo04">
           <h1 className="projectTitle">Booklastic</h1>
 
           <br></br>

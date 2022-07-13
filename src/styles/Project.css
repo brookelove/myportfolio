@@ -3,7 +3,7 @@
   background-color: var(--cream);
 }
 .project04LandingBeigeBkgrd {
-  height: 300vh;
+  height: 350vh;
   background-color: var(--cream);
 }
 .ProjectContainer {
@@ -11,6 +11,13 @@
   display: flex;
   flex-wrap: wrap;
   color: var(--complete);
+}
+.ProjectContainer04 {
+  height: 0vh;
+}
+.projectInfo04 {
+  position: relative;
+  bottom: 550px;
 }
 .projectTitle {
   display: flex;
