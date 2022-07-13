@@ -86,6 +86,24 @@
   display: flex;
   position: relative;
 }
+.project04smallImage01 {
+  left: 0;
+  margin-top: 2%;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  position: relative;
+}
+.project04smallImage02 {
+  left: 35%;
+  /* margin-top: 2%; */
+  width: 300px;
+  height: 400px;
+  bottom: 5%;
+  z-index: 2;
+  display: flex;
+  position: relative;
+}
 .comingSoonBkgrd {
   height: 100vh;
   background-color: var(--cream);
@@ -134,6 +152,14 @@
     transform: scale(0.7);
   }
   .project01SmallImage02 {
+    transform: scale(0.7);
+    left: 10%;
+    bottom: 4%;
+  }
+  .project04smallImage01 {
+    transform: scale(0.7);
+  }
+  .project04smallImage02 {
     transform: scale(0.7);
     left: 10%;
     bottom: 4%;

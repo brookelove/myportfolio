@@ -57,14 +57,14 @@ export default function Project01() {
             the bookstore!
           </p>
           <br></br>
-          <div className="project01SmallImage01">
+          <div className="project04smallImage01">
             <img
               src={project04image02}
               alt="Character Select"
               className="project01Image02"
             />
           </div>
-          <div className="project01SmallImage02">
+          <div className="project04smallImage02">
             <img
               src={project04image03}
               alt="Character Select"
