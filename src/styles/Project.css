@@ -133,13 +133,14 @@
 @media screen and (max-width: 550px) {
   .outsideContianer {
     top: 0;
+    width: 85%;
   }
   .nav {
     height: 23vh;
   }
   .project01BigImage {
     transform: scale(0.6);
-    left: 0;
+    left: -10%;
   }
   .projectShortBlurb {
     width: 90%;
@@ -150,10 +151,11 @@
   }
   .project01SmallImage01 {
     transform: scale(0.7);
+    left: -10%;
   }
   .project01SmallImage02 {
     transform: scale(0.7);
-    left: 10%;
+    left: -10%;
     bottom: 4%;
   }
   .project04smallImage01 {

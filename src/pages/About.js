@@ -66,9 +66,9 @@ export default function About() {
               </a>
             </button>
             <br></br>
-            <button>
+            {/* <button>
               <a className="buttonLink">Blog</a>
-            </button>
+            </button> */}
           </div>
           {/* photo container */}
           <div className="aboutPhoto">
