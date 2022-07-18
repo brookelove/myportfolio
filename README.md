@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+1. [Description](#descript)
 
-### `npm start`
+2. [Motivation](#motivation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. [Usage](#usage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. [Mock Up](#mock-up)
 
-### `npm test`
+5. [Future](#future)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. [Liscense](#license)
 
-### `npm run build`
+7. [Contributors](#contributors)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+8. [Questions](#questions)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Description
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Welcome to the bones of my portfolio. I wanted to create a portfolio to showcase my work that I have createds and update. Thisis a place for my apps to show whoi I am, As a full stack developer I have a place for both my front end and back end work lies.
 
-### `npm run eject`
+# Motivation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    I wanted to create a new portfolio after completing my bootcamp so I had fgree creativity. It allowed me to showcase what I was and am completing currently. Athough, it seems shoiret time to create a new project even though I made one a few weeks ago I realize that I have grown since then and have become more accomplished in what I created.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    I am using this app to provide a quick link to my work and showcase my skillset.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Mock Up
 
-## Learn More
+![Image of Portfolio]()
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Gif of Portfolio]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Future
 
-### Code Splitting
+    I would like to showcase more of my projectrs as well as have more intergration.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# License
 
-### Analyzing the Bundle Size
+[MIT](./LICENSE)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Contributors
 
-### Making a Progressive Web App
+    I did not have anyone help me contribute to this broject and would not want any contributors in teh future due to my portfolio.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Questions?
 
-### Advanced Configuration
+Feel Free to reach me at!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [brookelovedevelops@gmail.com](brookelovedevelops@gmail.com)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [brookelove Profile](!https://github.com/brookelove)
