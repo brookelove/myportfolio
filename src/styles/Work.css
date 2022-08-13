@@ -41,7 +41,8 @@
   position: relative;
   right: 20%;
   font-size: 50%;
-  font-family: "Loura";
+  font-family: "Bondoni";
+  text-transform: uppercase;
 }
 .projectLink:hover {
   transition-duration: 500ms;

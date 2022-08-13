@@ -8,7 +8,7 @@ export default function Work() {
         <Navbar />
         <div className="workTextContainer">
           {/* container for the work text */}
-          <h4 className="pageTitle">Work</h4>
+          <h4 className="pageTitle">WORK</h4>
           <br />
           <p>
             This is some of my greatest works currently. I have decided to show

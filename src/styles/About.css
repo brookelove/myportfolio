@@ -1,5 +1,9 @@
 @import url("./Landing.css");
 
+body {
+  font-family: "Playfair Display", serif;
+}
+
 :root {
   --brown: #715c54;
   --absent: #1a1919;
@@ -35,7 +39,6 @@
   font-family: "Abril Fatface", cursive;
 }
 .pageTitle {
-  font-family: "Loura";
   font-family: "Bondoni";
   font-size: 500%;
   color: var(--absent);
