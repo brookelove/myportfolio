@@ -2,34 +2,36 @@ import React from "react";
 import "../styles/Landing.css";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
+import "animate.css";
 
 export default function Landing() {
   return (
-    <div className="beigeBackgd">
+    <div className="vanGoughBackground ">
+      <div></div>
       <div className="landingContainer">
         <Navbar />
         {/* container that is for short blurb */}
-        <div className="introContainer">
+        <div className="introContainer animate__animated animate__fadeInDown">
           <p>
-            <b>BROOKE LOVE</b>
+            <b className="beigeHighlight">BROOKE LOVE</b>
           </p>
           <br />
-          <p>Passionate Full Stack Developer</p>
+          <p className="beigeHighlight">Passionate Full Stack Developer</p>
           <br />
-          <p>
+          <p className="beigeHighlight">
             Currently working on <a>Evergreen Body Mod</a>
           </p>
         </div>
         {/* contaier for the landing link tabs */}
-        <div className="linkContainer">
+        <div className="linkContainer animate__animated animate__fadeInDown">
           <Link className="linkLanding" to="/work">
-            <h1 className="landingLink">Work</h1>
+            <h1 className="landingLink">WORK</h1>
           </Link>
           <Link className="linkLanding" to="/about">
-            <h1 className="landingLink">About</h1>
+            <h1 className="landingLink">ABOUT</h1>
           </Link>
           <Link className="linkLanding" to="/contact">
-            <h1 className="landingLink">Contact</h1>
+            <h1 className="landingLink">CONTACT</h1>
           </Link>
         </div>
       </div>
