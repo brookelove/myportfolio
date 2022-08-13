@@ -7,10 +7,7 @@
   background-color: var(--cream);
 }
 .ProjectContainer {
-  /* height: 150vh; */
   display: flex;
-  /* flex-wrap: wrap;
-  color: var(--complete); */
 }
 .projectTitle {
   display: flex;
