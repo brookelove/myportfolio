@@ -58,9 +58,7 @@ body {
 .landingLink {
   color: var(--absent);
   font-size: 600%;
-  /* font-family: "AdoreBold"; */
   font-weight: 700;
   font-family: "Bondoni";
-  /* color: rgb(100, 40, 19); */
   color: rgba(251, 251, 251, 0.856);
 }

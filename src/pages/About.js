@@ -10,11 +10,11 @@ export default function About() {
         {/* paragraph text container */}
         <div className="aboutInfo">
           <div className="aboutWords">
-            <div className="MyLineContainer">
-              <h1 className="BioTitle aboutLeft">My</h1>
+            {/* <div className="MyLineContainer"> */}
+            {/* <h1 className="BioTitle aboutLeft">HI I'M</h1>
               <span className="thickLine"></span>
             </div>
-            <h1 className="BioTitle aboutRight">BIO</h1>
+            <h1 className="BioTitle aboutRight">BROOKE</h1> */}
             <br></br>
             <h3 className="aboutBio">A zoologist & web designer.</h3>
             <br></br>
@@ -71,8 +71,10 @@ export default function About() {
             </button> */}
           </div>
           {/* photo container */}
-          <div className="aboutPhoto">
-            <img src={myPhoto} alt="Photo of Brooke Love" />
+          <div className="aboutPhoto animate__animated animate__fadeInDown">
+            <h1 className="BioTitle aboutLeft">BROOKE</h1>
+            <img className="myPhoto" src={myPhoto} alt="Photo of Brooke Love" />
+            <h1 className="BioTitle aboutRight">LOVE</h1>
           </div>
         </div>
       </div>
