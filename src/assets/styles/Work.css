@@ -40,6 +40,9 @@
 .projectTitle {
   width: 100%;
 }
+.workAnchor {
+  text-decoration: none;
+}
 .projectLink {
   color: var(--cream);
   background-color: var(--absent);
@@ -62,7 +65,7 @@
   color: inherit;
 }
 @media screen and (max-width: 768px) {
-  .workContainer{
+  .workContainer {
     background-size: 55%;
   }
   .pageTitle {
@@ -70,7 +73,7 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .blackBackground{
+  .blackBackground {
     height: 210vh;
   }
   .workContainer {

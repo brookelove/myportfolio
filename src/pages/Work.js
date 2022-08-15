@@ -19,36 +19,43 @@ export default function Work() {
         </div>
         {/* container for the project title */}
         <div className="projectContainer">
-          <h1 className="projectTitle">
-            <button href="/project01" className="projectLink">
-              Battle Trail
-            </button>
-          </h1>
-          <h1 className="projectTitle">
-            <button href="/project02" className="projectLink">
-              Evergreen Body Mod
-            </button>
-          </h1>
-          <h1 className="projectTitle">
-            <button href="/project03" className="projectLink">
-              Cake Man
-            </button>
-          </h1>
-          <h1 className="projectTitle">
-            <button href="/project04" className="projectLink">
-              Booklastic
-            </button>
-        </h1>
-          {/*  <h1 className="projectTitle">
+          <a href="/project01" className="workAnchor">
+            <h1 className="projectTitle">
+              <button className="projectLink">Battle Trail</button>
+            </h1>
+          </a>
+          <a href="/project01" className="workAnchor">
+            <h1 className="projectTitle">
+              <button href="/project02" className="projectLink">
+                Evergreen Body Mod
+              </button>
+            </h1>
+          </a>
+          <a href="/project01" className="workAnchor">
+            <h1 className="projectTitle">
+              <button href="/project03" className="projectLink">
+                Cake Man
+              </button>
+            </h1>
+          </a>
+          <a href="/project01" className="workAnchor">
+            <h1 className="projectTitle">
+              <button href="/project04" className="projectLink">
+                Booklastic
+              </button>
+            </h1>
+          </a>
+          {/*  <a href="/project01" className="workAnchor"><h1 className="projectTitle">
             <button href="/project05" className="projectLink">
               Project 5
             </button>
-          </h1>
+          </h1></a>
+          <a href="/project01" className="workAnchor">
           <h1 className="projectTitle">
             <button href="/project06" className="projectLink">
               Project 6
             </button>
-          </h1> */}
+          </h1></a> */}
         </div>
       </div>
     </div>
