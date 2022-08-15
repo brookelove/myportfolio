@@ -183,7 +183,7 @@ button:hover {
 }
 @media screen and (max-width: 768px) {
   .aboutContainer {
-    height: 250vh;
+    height: 400vh;
   }
   .BioTitle {
     font-size: 300%;
@@ -201,5 +201,58 @@ button:hover {
   }
   .bottom {
     padding-top: 10%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .BioTitle {
+    width: 75%;
+  }
+  .middle {
+    flex-direction: row;
+  }
+  .factContainer {
+    margin: 50% 0 20% 0;
+    width: 85%;
+  }
+  .experienceContainer {
+    width: 85%;
+    margin-bottom: 10%;
+  }
+  .skillsContainer {
+    width: 85%;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .shoutOutContainer {
+    width: 85%;
+    margin-top: 210%;
+  }
+  .buttonContainer {
+    width: 50%;
+    margin-top: 10%;
+    left: 20%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .BioTitle {
+    width: 45%;
+    font-size: 190%;
+  }
+  .myPhoto {
+    margin-top: 10%;
+    width: 240px;
+  }
+  .shoutOutContainer {
+    width: 85%;
+    margin-top: 310%;
+  }
+  .buttonContainer {
+    width: 50%;
+    margin-top: 10%;
+    left: 20%;
+    position: relative;
   }
 }
