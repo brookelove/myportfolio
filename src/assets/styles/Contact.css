@@ -9,7 +9,6 @@
   flex-direction: column;
   margin-left: 5%;
   margin-top: 25%;
-  /* background-color: rgba(32, 32, 32, 0.856); */
   background-color: rgba(251, 251, 251, 0.556);
   height: 35%;
   padding: 2%;
@@ -53,8 +52,31 @@
     margin-top: -35%;
   }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
+  .nav {
+    position: relative;
+    top: 10%;
+  }
   .contactBackground {
-    background-size: 200%;
+    background-size: 300%;
+  }
+  .contactContainer {
+    position: relative;
+    top: 50%;
+    height: 70%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contactBackground {
+    width: 500%;
+    height: 400vh;
+    background-size: 100%;
+    background-image: url("../images/woman_standing_by_a_tree_1970.17.67.jpg");
+  }
+  .contactContainer {
+    top: 250%;
+    font-size: 400%;
+    height: 120%
   }
 }
