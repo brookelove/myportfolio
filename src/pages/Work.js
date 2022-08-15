@@ -8,6 +8,7 @@ export default function Work() {
         <Navbar />
         <div className="workTextContainer">
           {/* container for the work text */}
+
           <h4 className="pageTitle">WORK</h4>
           <br />
           <p>
@@ -15,13 +16,6 @@ export default function Work() {
             all of my passions and works that I have done over the year. Some
             are by resquest but, all are passion projects of mine.
           </p>
-          {/* this is some of my greatest work that coveres different fields */}
-          <br />
-          {/* <button>
-            <a className="buttonLink" href="/tools">
-              Helpful Tools
-            </a>
-          </button> */}
         </div>
         {/* container for the project title */}
         <div className="projectBackContainer"></div>

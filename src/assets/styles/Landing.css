@@ -52,7 +52,7 @@ body {
   text-decoration: none;
 }
 .landingLink:hover {
-  transition-duration: 500ms;
+  transition-duration: 3s;
   text-decoration: underline;
 }
 .landingLink {
