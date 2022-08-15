@@ -1,14 +1,28 @@
+.contactBackground {
+  background-image: url("../images/forest_interior_with_a_painter\,_civita_castellana_1994.52.3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
 .contactContainer {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
   margin-top: 25%;
+  /* background-color: rgba(32, 32, 32, 0.856); */
+  background-color: rgba(251, 251, 251, 0.556);
+  height: 35%;
+  padding: 2%;
+  color: var(--absent);
+}
+.contactTitle {
+  color: var(--absent) !important;
 }
 .contactOuterDiv {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  color: var(--complete);
+  color: var(--cream);
 }
 .contactSubTitle {
   display: flex;
@@ -25,14 +39,22 @@
 .contactLinks {
   font-size: 20px;
   font-weight: 400;
-  color: #354449;
+  color: var(--absent);
   text-decoration: none;
 }
 .contactLinks:hover {
   text-decoration: underline;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
+  .contactBackground {
+    background-size: 120%;
+  }
   .contactContainer {
-    margin-top: -45%;
+    margin-top: -35%;
+  }
+}
+@media screen and (max-width: 425px){
+  .contactBackground {
+    background-size: 200%;
   }
 }

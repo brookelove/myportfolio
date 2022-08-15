@@ -4,11 +4,11 @@ import Navbar from "../components/Navbar";
 
 export default function Contact() {
   return (
-    <div className="beigeBackgd">
+    <div className="contactBackground">
       <div className="contactOuterDiv">
         <Navbar />
         <div className="contactContainer">
-          <h1 className="pageTitle">bonjour!</h1>
+          <h1 className="pageTitle contactTitle">bonjour!</h1>
           <p className="contactSubTitle">
             If you want to chat feel free to reach out on these links
           </p>
