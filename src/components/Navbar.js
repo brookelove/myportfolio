@@ -65,7 +65,6 @@ export default function Navbar() {
             </a>
           </p>
         )}
-
         <span className="line"></span>
       </div>
     </div>
