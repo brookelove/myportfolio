@@ -176,15 +176,30 @@ button:hover {
   background-color: #4d6879;
 }
 
-@media screen and (max-width: 550px) {
-  /* .aboutBeigeBackgd {
-    height: 300vh;
+@media screen and (max-width: 1024px) {
+  .BioTitle {
+    font-size: 400%;
   }
+}
+@media screen and (max-width: 768px) {
   .aboutContainer {
-    flex-direction: column;
+    height: 250vh;
   }
-  .aboutInfo {
-    position: relative;
-    left: 20%;
-  } */
+  .BioTitle {
+    font-size: 300%;
+  }
+  .middle {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  .factContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .experienceContainer {
+    height: 120%;
+  }
+  .bottom {
+    padding-top: 10%;
+  }
 }
