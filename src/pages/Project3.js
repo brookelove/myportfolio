@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import "../styles/Project.css";
+import "../assets/styles/Project.css";
 import bigImage from "../assets/images/project03/cakeManWeb.png";
 import smallImage01 from "../assets/images/project03/about.png";
 import smallImage02 from "../assets/images/project03/desserts.png";

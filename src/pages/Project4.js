@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import "../styles/Project.css";
+import "../assets/styles/Project.css";
 import P04image from "../assets/images/project04/BL_landing.png";
 import project04image02 from "../assets/images/project04/BL_socket.png";
 import project04image03 from "../assets/images/project04/BL-review.png";

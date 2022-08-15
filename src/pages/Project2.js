@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import "../styles/Project.css";
+import "../assets/styles/Project.css";
 
 export default function Project02() {
   return (

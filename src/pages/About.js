@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import myPhoto from "../assets/images/me.png";
-import "../styles/About.css";
+import "../assets/styles/About.css";
 export default function About() {
   return (
     <div className="aboutBeigeBackgd">

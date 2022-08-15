@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import "../styles/Project.css";
+import "../assets/styles/Project.css";
 import bigImage from "../assets/images/project01/BT_landing.png";
 import smallImage01 from "../assets/images/project01/BT_charselet.png";
 import smallImage02 from "../assets/images/project01/BT_battle.png";

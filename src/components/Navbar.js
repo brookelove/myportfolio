@@ -1,4 +1,4 @@
-import "../styles/Navbar.css";
+import "../assets/styles/Navbar.css";
 import React from "react";
 
 export default function Navbar() {
