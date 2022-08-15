@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import "../assets/styles/Work.css";
 export default function Work() {
   return (
-    <div className="beigeBackgd">
+    <div className="blackBackground">
       <div className="workContainer">
         <Navbar />
         <div className="workTextContainer">
@@ -18,37 +18,36 @@ export default function Work() {
           </p>
         </div>
         {/* container for the project title */}
-        <div className="projectBackContainer"></div>
         <div className="projectContainer">
           <h1 className="projectTitle">
-            <a href="/project01" className="projectLink">
+            <button href="/project01" className="projectLink">
               Battle Trail
-            </a>
+            </button>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project02" className="projectLink">
+            <button href="/project02" className="projectLink">
               Evergreen Body Mod
-            </a>
+            </button>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project03" className="projectLink">
+            <button href="/project03" className="projectLink">
               Cake Man
-            </a>
+            </button>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project04" className="projectLink">
+            <button href="/project04" className="projectLink">
               Booklastic
-            </a>
-          </h1>
+            </button>
+        </h1>
           {/*  <h1 className="projectTitle">
-            <a href="/project05" className="projectLink">
+            <button href="/project05" className="projectLink">
               Project 5
-            </a>
+            </button>
           </h1>
           <h1 className="projectTitle">
-            <a href="/project06" className="projectLink">
+            <button href="/project06" className="projectLink">
               Project 6
-            </a>
+            </button>
           </h1> */}
         </div>
       </div>

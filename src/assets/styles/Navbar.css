@@ -8,12 +8,19 @@
   margin-left: 3%;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 .innerNav {
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  text-align: center;
+  padding: 2%;
+  height: 30vh;
+  width: 120%;
   justify-content: space-around;
+  background-color: rgba(251, 251, 251, 0.556);
+  position: relative;
+  top: -30%;
 }
 .line {
   width: 1px;
