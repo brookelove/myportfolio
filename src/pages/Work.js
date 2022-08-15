@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import "../styles/Work.css";
+import "../assets/styles/Work.css";
 export default function Work() {
   return (
     <div className="beigeBackgd">

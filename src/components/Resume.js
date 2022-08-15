@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "../styles/Resume.css";
+import "../assets/styles/Resume.css";
 import Navbar from "./Navbar";
 import myResume from "../assets/resume.pdf";
 // import { pdfjs } from 'react-pdf';

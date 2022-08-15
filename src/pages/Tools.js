@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import "../styles/Tools.css";
+import "../assets/styles/Tools.css";
 
 export default function Tool() {
   return (
