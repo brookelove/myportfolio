@@ -1,10 +1,10 @@
 .project01LandingBeigeBkgrd {
   height: 300vh;
-  background-color: var(--cream);
+  background-color: var(--absent);
 }
 .project04LandingBeigeBkgrd {
   height: 350vh;
-  background-color: var(--cream);
+  background-color: var(--absent);
 }
 .ProjectContainer {
   display: flex;
@@ -12,16 +12,17 @@
 .projectTitle {
   display: flex;
   justify-content: center;
-  font-family: "Loura";
+  font-family: "Bondoni";
   font-size: 400%;
-  color: var(--dark);
+  color: var(--med);
   position: relative;
   padding-top: 10%;
 }
 .projectShortBlurb {
   font-size: 160%;
   text-align: center;
-  font-family: "L";
+  color: var(--cream) !important;
+  /* font-family: "L"; */
 }
 .linksToProjectContainer {
   display: flex;
@@ -30,7 +31,7 @@
 .linksToProject {
   font-size: 20px;
   text-decoration: none;
-  color: var(--complete);
+  color: var(--cream);
   margin: 30px 100px 0 100px;
   font-weight: 800;
 }
@@ -41,7 +42,7 @@
 }
 .projectSubTitle {
   font-size: 35px;
-  color: var(--med);
+  color: var(--cream);
   font-weight: 1400;
   font-family: "Woman";
 }
@@ -52,6 +53,7 @@
   font-size: 20px;
   text-align: center;
   margin: 5px 0 5px 0;
+  color: var(--cream) !important;
 }
 .projectButton {
   display: flex;

@@ -8,7 +8,7 @@ export default function Project02() {
       <div className="comingContainer">
         <Navbar />
         <div className="comingSoon">
-          <h1>Evergreen Body Mod</h1>
+          <h1>EVERGREEN BODY MOD</h1>
           <p>Comming Soon!</p>
           <a
             href="https://github.com/brookelove/evergreen-body-mod"

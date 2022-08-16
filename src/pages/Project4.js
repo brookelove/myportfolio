@@ -10,7 +10,7 @@ export default function Project01() {
       <div className="ProjectContainer">
         <Navbar />
         <div>
-          <h1 className="projectTitle">Booklastic</h1>
+          <h1 className="projectTitle">BOOKLASTIC</h1>
 
           <br></br>
           <br></br>

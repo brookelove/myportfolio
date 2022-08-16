@@ -11,7 +11,7 @@ export default function Project03() {
       <div className="ProjectContainer">
         <Navbar />
         <div className="outsideContianer">
-          <h1 className="projectTitle">Cake Man</h1>
+          <h1 className="projectTitle">CAKE MAN</h1>
 
           <br></br>
           <br></br>
