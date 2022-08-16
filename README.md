@@ -18,7 +18,9 @@
 
 7. [Contributors](#contributors)
 
-8. [Questions](#questions)
+8. [Artists](#artists)
+
+9. [Questions](#questions)
 
 # Description
 
@@ -49,6 +51,20 @@ Welcome to the bones of my portfolio. I wanted to create a portfolio to showcase
 # Contributors
 
     I did not have anyone help me contribute to this broject and would not want any contributors in teh future due to my portfolio.
+
+# Artists
+
+    I did not create the art for my background I found them through these websites here is the links for the amazing artworks! 
+
+    1. [Woman Standing By a Tree](https://www.nga.gov/collection/art-object-page.52211.html)
+
+    2. [Concrete Wall](https://www.freepik.com/free-photo/old-concrete-wall_1271198.htm#query=clay%20plaster&position=38&from_view=search#position=38&query=clay%20plaster)
+
+    3.[Italy Museum Borghese](https://www.pinterest.com/pin/890023945083703464/)
+
+    4. [Wallpapers Sunset Aesthetic](https://www.pinterest.com/pin/696791373612739693/)
+
+    5. [Forest Interior with a Painter, Civita Castellana](https://www.nga.gov/collection/art-object-page.74992.html)
 
 # Questions?
 
