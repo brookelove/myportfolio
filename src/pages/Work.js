@@ -24,21 +24,21 @@ export default function Work() {
               <button className="projectLink">Battle Trail</button>
             </h1>
           </a>
-          <a href="/project01" className="workAnchor">
+          <a href="/project02" className="workAnchor">
             <h1 className="projectTitle">
               <button href="/project02" className="projectLink">
                 Evergreen Body Mod
               </button>
             </h1>
           </a>
-          <a href="/project01" className="workAnchor">
+          <a href="/project03" className="workAnchor">
             <h1 className="projectTitle">
               <button href="/project03" className="projectLink">
                 Cake Man
               </button>
             </h1>
           </a>
-          <a href="/project01" className="workAnchor">
+          <a href="/project04" className="workAnchor">
             <h1 className="projectTitle">
               <button href="/project04" className="projectLink">
                 Booklastic
