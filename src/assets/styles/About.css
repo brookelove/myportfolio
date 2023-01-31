@@ -20,8 +20,10 @@ body {
 .aboutInfo {
   display: flex;
   flex-wrap: wrap;
+  height: fit-content;
 }
 .aboutWords {
+  /* height: fit-content; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -183,7 +185,7 @@ button:hover {
 }
 @media screen and (max-width: 768px) {
   .aboutContainer {
-    height: 400vh;
+    height: fit-content;
   }
   .BioTitle {
     font-size: 300%;
@@ -235,22 +237,32 @@ button:hover {
     position: relative;
   }
 }
+@media screen and (max-width: 375px) {
+  .myPhoto{
+    margin-top: 30px;
+    width: 235px;
+  }
+  .shoutOutContainer {
+    width: 90%;
+    margin-top: 270%;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .BioTitle {
-    width: 45%;
+    width: 52%;
     font-size: 190%;
   }
   .myPhoto {
     margin-top: 10%;
-    width: 240px;
+    width: 224px;
   }
   .shoutOutContainer {
     width: 85%;
     margin-top: 310%;
   }
   .buttonContainer {
-    width: 50%;
+    width: 60%;
     margin-top: 10%;
     left: 20%;
     position: relative;
