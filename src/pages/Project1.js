@@ -1,22 +1,21 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../assets/styles/Project.css";
-import bigImage from "../assets/images/project01/BT_landing.png";
-import smallImage01 from "../assets/images/project01/BT_charselet.png";
-import smallImage02 from "../assets/images/project01/BT_battle.png";
+import bigImage from "../assets/images/project01/beginning.png";
+import smallImage01 from "../assets/images/project01/middle.png";
+import smallImage02 from "../assets/images/project01/Spotify.png";
 export default function Project01() {
   return (
     <div className="project01LandingBeigeBkgrd">
       <div className="ProjectContainer">
         <Navbar />
         <div className="outsideContianer">
-          <h1 className="projectTitle">BATTLE TRAIL</h1>
+          <h1 className="projectTitle">the W.</h1>
 
           <br></br>
           <br></br>
           <h3 className="projectShortBlurb">
-            A side scroller retro battle game where you battle the creators of
-            the game
+            A widget website where you can get you rdaily information
           </h3>
           <br></br>
           <div className="project01BigImage">
@@ -28,14 +27,14 @@ export default function Project01() {
           </div>
           <div className="linksToProjectContainer">
             <a
-              href="https://github.com/JaHa675/project-3"
+              href="https://github.com/brookelove/weather"
               className="linksToProject"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://battle-trail.herokuapp.com"
+              href="https://thunderous-selkie-c74591.netlify.app/"
               target="_blank"
               className="linksToProject"
             >
@@ -46,37 +45,33 @@ export default function Project01() {
           <br></br>
           <br></br>
           <p className="projectDescription">
-            Welcome to the Battle Trail, a fun and exiting 2D RPG that is
-            heavily inspired by 2000s pixelated games. As enginners, we liked
-            the thought of a game that combined all of our love for games and
-            challlenged us to create something new. We used technologies like
-            React, JavaScript, and Phaser Game Engine to bring our idea of a
-            quirky, sprite dominated game to life. Throughout the game you will
-            see lots of pixel art from open soure sprite resources and
-            characters that are based off the creators. We hope that you find
-            joy in the little things will working your way through Battle Trail!
+            The W. started off as a weather application that turned into more of
+            a widget collection. Iwanted to create a widget application that
+            grabbed all of my elements that I use on a daily.
           </p>
           <br></br>
           <div className="project01SmallImage01">
-            <img
-              src={smallImage01}
-              alt="Character Select"
-              className="project01Image02"
-            />
-          </div>
-          <div className="project01SmallImage02">
             <img
               src={smallImage02}
               alt="Character Select"
               className="project01Image02"
             />
           </div>
+          <div className="project01SmallImage02">
+            <img
+              src={smallImage01}
+              alt="Character Select"
+              className="project01Image02"
+            />
+          </div>
           <p className="projectDescription">
-            During this program used a lot of technologies.A lot of things were
-            learned while creating this project by learing React.js and Phaser.
-            It was a grat and interesting learning curve. Other technologies I
-            have had more comfort with wso they did not cause too much of
-            concern: Express, Heroku, Node, CSS, and JS.
+            This application used the Third-Party Apps Spotify, WeatherApi, and
+            Date and Time to get the acurrent date. I also used React, CSS, and
+            Netlify to deploy teh application. As I continue to grow this
+            application I want to add mroe widgets such as a calender that
+            tracts al your monthly meetings that you can add onto. Make the
+            alerts and prompts more appealing by making them into modals. As
+            well as, including te Google Maps API to plan out your day
           </p>
           <br></br>
           <br></br>
@@ -85,11 +80,11 @@ export default function Project01() {
             <button>
               {" "}
               <a
-                href="https://battle-trail.herokuapp.com"
+                href="https://thunderous-selkie-c74591.netlify.app/"
                 target="_blank"
                 className="buttonLink"
               >
-                Battle Trail
+                the W.
               </a>
             </button>
           </div>

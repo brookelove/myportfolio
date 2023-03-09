@@ -1,6 +1,22 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import myPhoto from "../assets/images/me.png";
+import Lines from "../assets/images/Logo.gif";
+import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io5";
+import {
+  SiHandlebarsdotjs,
+  SiSass,
+  SiApollographql,
+  SiMysql,
+  SiPwa,
+  SiNotion,
+  SiGithub,
+  SiMongodb,
+  SiJavascript,
+  SiPython,
+  SiReact,
+} from "react-icons/si";
+import { IconName } from "react-icons/fa";
 import "../assets/styles/About.css";
 export default function About() {
   return (
@@ -10,16 +26,28 @@ export default function About() {
         {/* paragraph text container */}
         <div className="aboutInfo animate__animated animate__fadeInDown">
           <div className="aboutWords">
-            <div className="top">
-              <h1 className="BioTitle aboutContainers">BROOKE LOVE</h1>
-              <img
-                className="myPhoto"
-                src={myPhoto}
-                alt="Photo of Brooke Love"
-                width="305"
-              />
+            <div className="top border">
+              <h1 className="BioTitle aboutContainers">WHO IS BROOKE?</h1>
+              <div className="innerTop">
+                <img
+                  className="myPhoto"
+                  src={myPhoto}
+                  alt="Photo of Brooke Love"
+                  width="300"
+                  // height="350"
+                />
+                <div className="gifSubText">
+                  <img
+                    className="myPhoto"
+                    src={Lines}
+                    alt="Photo of Brooke Love"
+                    width="300"
+                  ></img>
+                  <h3> GET TO KNOW ME AS A CODER & A PERSON</h3>
+                </div>
+              </div>
             </div>
-            <div className="middle">
+            <div className="border middle">
               <div className="factContainer aboutContainers">
                 <h4 className="aboutSubTitle factTitle">FUN FACTS</h4>
                 <ul className="factList">
@@ -28,32 +56,47 @@ export default function About() {
                   <li>I have never been outside of the continent </li>
                 </ul>
               </div>
-              <div className="experienceContainer aboutContainers">
+              <div className="factContainer aboutContainers">
                 <h4 className="aboutSubTitle">EXPERIENCE</h4>
                 <br></br>
-                <ul>
-                  <li className="aboutContext listElement">
-                    Graduated from WSU with a BS of Biology 2021
-                  </li>
-                  <li className="aboutContext listElement">
+                <ul className="factList">
+                  <li>Graduated from WSU with a BS of Biology 2021</li>
+                  <li>
                     Graduated from University of Washington with a Certificate
                     of FullStack development 2022
                   </li>
+                  <li>
+                    Working towards my Master's in Science in Software
+                    Developemnt at Boston University
+                  </li>
                 </ul>
               </div>
+              {/* <br></br> */}
+            </div>
+            {/* <div className="bottom"> */}
+            <div className="skillsContainer border">
+              <h4 className="aboutSubTitle">SKILLS</h4>
               <br></br>
-              <div className="skillsContainer aboutContainers">
-                <h4 className="aboutSubTitle">SKILLS</h4>
-                <br></br>
-                <p>
-                  Object Oriented Design - Organization - Full-stack development
-                  - PWA - HTML - Handlebars - Collaboration - Project Management
-                  - CSS - React - JS - Sequilize - MongoDB - Apollo
-                </p>
+              <h4>Concepts</h4>
+              <p>
+                Object Oriented Design - Organization - Collaboration - Project
+                Management -{" "}
+              </p>
+              <h4>Languages</h4>
+              <div>
+                <SiPwa size={30} /> <IoLogoHtml5 size={30} />
+                <SiHandlebarsdotjs size={30} />
+                <IoLogoCss3 size={30} /> <SiJavascript size={30} />
+                <SiMysql size={30} />
+                <SiApollographql size={30} /> <SiSass size={30} />
+                <SiNotion size={30} /> <SiGithub size={30} />
+                <SiMongodb size={30} /> <SiPython size={30} />
+                <SiReact size={30} />
               </div>
             </div>
-            <div className="bottom">
-              <div className="shoutOutContainer aboutContainers">
+            <div className="buttonFun border">
+              <div>
+                {/* <div className="shoutOutContainer aboutContainers">
                 <h4 className="aboutSubTitle">SHOUT OUTS</h4>
                 <br></br>
                 <p className="aboutContext">
@@ -67,8 +110,8 @@ export default function About() {
                   , <a>Dahlia Graves</a>, <a>Evan Hosni</a>,{" "}
                   <a>Lindsay Fitzgerald</a>, <a>Niles Bingham</a>
                 </p>
-              </div>
-              <div className="aboutContainers buttonContainer">
+              </div> */}
+
                 <button>
                   <a className="buttonLink" href="/resume">
                     My Resume
@@ -82,9 +125,10 @@ export default function About() {
                   </a>
                 </button>
               </div>
-
-              <br></br>
             </div>
+
+            <br></br>
+            {/* </div> */}
           </div>
         </div>
       </div>

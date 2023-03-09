@@ -1,21 +1,17 @@
 .contactBackground {
-  background-image: url("../images/forest_interior_with_a_painter\,_civita_castellana_1994.52.3.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
+  background-color: #efebe0;
 }
 .contactContainer {
   display: flex;
-  flex-direction: column;
-  margin-left: 5%;
-  margin-top: 25%;
-  background-color: rgba(251, 251, 251, 0.556);
-  height: 35%;
-  padding: 2%;
+  justify-content: space-around;
+  width: 90%;
+  align-items: center;
   color: var(--absent);
 }
 .contactTitle {
   color: var(--absent) !important;
+  font-size: 50px;
 }
 .contactOuterDiv {
   height: 100vh;
@@ -23,13 +19,9 @@
   flex-wrap: wrap;
   color: var(--cream);
 }
-.contactSubTitle {
-  display: flex;
-  padding-top: 2%;
-  flex-wrap: wrap;
-  font-weight: 600;
-  font-size: 27px;
-  font-family: "L";
+.logoTitle {
+  width: 100%;
+  text-align:center ;
 }
 .listNone {
   list-style-type: none;
@@ -40,16 +32,24 @@
   font-weight: 400;
   color: var(--absent);
   text-decoration: none;
+  text-align: center;
 }
 .contactLinks:hover {
   text-decoration: underline;
 }
+.QRcodes {
+  width: 300px;
+}
 @media screen and (max-width: 768px) {
-  .contactBackground {
-    background-size: 120%;
-  }
   .contactContainer {
-    margin-top: -35%;
+    position: relative;
+    bottom: 705px;
+  }
+  .logoTitle {
+    transform: scale(0.9);
+  }
+  .QRcodes {
+    transform: scale(0.6);
   }
 }
 @media screen and (max-width: 425px) {
@@ -58,25 +58,34 @@
     top: 10%;
   }
   .contactBackground {
-    background-size: 300%;
+    /* background-color: #efebe0; */
+    height: 180vh;
+    /* background-size: 300%; */
   }
   .contactContainer {
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .logoTitle {
+    transform: scale(0.7);
+  }
+  .QRcodes {
     position: relative;
-    top: 50%;
-    height: 70%;
-    width: 60%;
+    transform: scale(0.6);
   }
 }
-@media screen and (max-width: 320px) {
-  .contactBackground {
-    width: 500%;
-    height: 400vh;
-    background-size: 100%;
-    background-image: url("../images/woman_standing_by_a_tree_1970.17.67.jpg");
+@media screen and (max-width: 375px) {
+  .contactContainer{
+    display: flex;
+
   }
-  .contactContainer {
-    top: 250%;
-    font-size: 400%;
-    height: 120%
+  .logoTitle {
+    transform: scale(0.4);
+  }
+  .listNone{
+    position: relative;
+    bottom:170px;
+    left: 40px;
   }
 }

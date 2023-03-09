@@ -10,10 +10,10 @@ body {
   --complete: #354449;
 }
 .clayBackground {
-  background-image: url("../images/clayWall3.png");
+  background-color: var(--med);
 }
 .aboutContainer {
-  height: 200vh;
+  /* height: 200vh; */
   display: flex;
   color: var(--complete);
 }
@@ -30,73 +30,74 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.border {
+  background-color: var(--cream);
+  border: solid 8px var(--absent);
+  margin: 15px 0;
+
+}
 .top {
-  width: 100%;
-  height: 50vh;
+  
+  padding: 10px;
+  
+  width: 90%;
+  
+  border-radius: 0 0 0  55px; 
+}
+.innerTop {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 5% 0 5% 0;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: flex-start;
 }
 .middle {
   height: 50vh;
+  height: 50vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 5% 0 2.5% 0;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
 }
-.bottom {
-  padding: 2.5% 0 5% 0;
+
+.buttonFun {
+  padding: 38px;
+  border-radius: 72%;
+  width: 185px;
+  height: 150px;
+  text-align: center;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .aboutBio {
   font-size: 20px;
-  text-align: center;
+  /* width: 90%; */
+  /* text-align: center; */
   font-family: "Abril Fatface", cursive;
 }
-.myPhoto {
-  border-radius: 3%;
-}
+
 .pageTitle {
   font-size: 500%;
   color: var(--absent);
   font-family: "Bondoni";
 }
 .BioTitle {
-  width: 25%;
+  /* width: 25%; */
   font-size: 500%;
   text-align: left;
-  color: var(--cream);
+  color: var(--absent);
   height: fit-content;
   font-family: "Bondoni";
-  background-color: var(--absent);
+  /* background-color: var(--absent); */
 }
-.BioTitle:hover {
+/* .BioTitle:hover {
   background-color: var(--cream);
   transition-duration: 2s;
   color: var(--absent);
-}
+} */
 .aboutContainers {
   padding: 4%;
   border-radius: 3%;
-}
-.experienceContainer {
-  width: 23%;
-  height: 55%;
-  display: flex;
-  color: var(--med);
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--cream);
-}
-.experienceContainer:hover {
-  background-color: var(--med);
-  transition-duration: 2s;
-  color: var(--cream);
 }
 .aboutSubTitle {
   font-family: "Abril Fatface", cursive;
@@ -115,35 +116,43 @@ body {
   list-style-type: circle;
 }
 .skillsContainer {
-  background-color: var(--med);
+  /* background-color: var(--med); */
+  /* margin: 10% 0 ; */
   color: var(--absent);
-  width: 23%;
+  width: 90%;
   text-align: center;
+  /* background-color: var(--absent); */
+  /* transition-duration: 2s; */
+  /* color: var(--cream); */
+  /* border-color: var(--cream); */
+}
+.gifSubText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
 }
 .skillsContainer:hover {
   background-color: var(--absent);
-  transition-duration: 2s;
+  transition: 1s ease-out;
+  border-color: var(--med);
   color: var(--med);
 }
+
 .factContainer {
-  width: 23%;
+  /* width: 23%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: var(--complete);
-  background-color: var(--med);
-}
-.factContainer:hover {
-  background-color: var(--complete);
-  transition-duration: 2s;
-  color: var(--med);
 }
 .factTitle {
   width: 25%;
 }
 .factList {
   width: 60%;
-  list-style-type: circle;
+  /* list-style-type: circle; */
+  list-style-type: disclosure-closed;
 }
 .shoutOutContainer {
   background-color: var(--complete);

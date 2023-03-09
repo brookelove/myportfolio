@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/Landing.css";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
+import Logo from "../assets/images/JustComputer.jpg";
 import "animate.css";
 
 export default function Landing() {
@@ -12,6 +13,7 @@ export default function Landing() {
         <Navbar />
         {/* container that is for short blurb */}
         <div className="introContainer animate__animated animate__fadeInDown">
+          <img src={Logo} className="landingLogo" />
           <p>
             <b className="beigeHighlight">BROOKE LOVE</b>
           </p>
@@ -19,7 +21,7 @@ export default function Landing() {
           <p className="beigeHighlight">Passionate Full Stack Developer</p>
           <br />
           <p className="beigeHighlight">
-            Currently working on <a>Evergreen Body Mod</a>
+            Currently working for my MS in Software Devlopment
           </p>
         </div>
         {/* contaier for the landing link tabs */}

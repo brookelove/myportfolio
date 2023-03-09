@@ -21,7 +21,7 @@ export default function Work() {
         <div className="projectContainer">
           <a href="/project01" className="workAnchor">
             <h1 className="projectTitle">
-              <button className="projectLink">Battle Trail</button>
+              <button className="projectLink">the W.</button>
             </h1>
           </a>
           <a href="/project02" className="workAnchor">
@@ -45,17 +45,20 @@ export default function Work() {
               </button>
             </h1>
           </a>
-          {/*  <a href="/project01" className="workAnchor"><h1 className="projectTitle">
-            <button href="/project05" className="projectLink">
-              Project 5
-            </button>
-          </h1></a>
+          {/* <a href="/project01" className="workAnchor">
+            <h1 className="projectTitle">
+              <button href="/project05" className="projectLink">
+                Project 5
+              </button>
+            </h1>
+          </a>
           <a href="/project01" className="workAnchor">
-          <h1 className="projectTitle">
-            <button href="/project06" className="projectLink">
-              Project 6
-            </button>
-          </h1></a> */}
+            <h1 className="projectTitle">
+              <button href="/project06" className="projectLink">
+                Project 6
+              </button>
+            </h1>
+          </a> */}
         </div>
       </div>
     </div>
