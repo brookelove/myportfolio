@@ -35,20 +35,6 @@ export default function Contact() {
         <div className="contactContainer">
           <div className="logoTitle">
             <img src={Logo} />
-            {/* <p className="contactTitle">Come See What I'm Doing</p> */}
-            {/* <form>
-              <label>NAME</label>
-              <input type="text" name="user_name" />
-              <label>EMAIL</label>
-              <input type="text" name="user_email" />
-              <label>MESSAGE</label>
-              <input type="text" name="user_message" />
-              <button>SEND</button>
-              {/* <label>Email</label>
-              <input type="email" name="user_email" />
-              <label>Message</label>
-              <textarea name="message" />
-              <input type="submit" value="Send" /> */}
           </div>
           <ul className="listNone">
             <li>
