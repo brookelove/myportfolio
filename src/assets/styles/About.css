@@ -1,7 +1,14 @@
 @import url("./Landing.css");
-
+@import url("https://use.typekit.net/pad5lcm.css");
+@import url("https://use.typekit.net/pad5lcm.css");
 body {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif;
+  /* font-family: "Liber"; */
+  /*font-family: 'Lato', sans-serif; */
+  
+  font-family: "fino", serif;
+font-weight: 700;
+font-style: normal;
 }
 :root {
   --brown: #715c54;
@@ -9,8 +16,16 @@ body {
   --cream: #f5f1e9;
   --complete: #354449;
 }
+.aboutHeader {
+  height: 100%;
+  image-rendering: crisp-edges;
+  width: 99%;
+  margin-left: 1%;
+}
 .clayBackground {
   background-color: var(--med);
+  background-color: rgb(8,16,19);
+  color: rgb(235, 230, 219)
 }
 .aboutContainer {
   /* height: 200vh; */
@@ -20,149 +35,34 @@ body {
 .aboutInfo {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: fit-content;
 }
-.aboutWords {
-  /* height: fit-content; */
-  width: 100%;
+.nameAndQuick {
+  margin-top: 10%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.border {
-  background-color: var(--cream);
-  border: solid 8px var(--absent);
-  margin: 15px 0;
-
-}
-.top {
-  
-  padding: 10px;
-  
-  width: 90%;
-  
-  border-radius: 0 0 0  55px; 
-}
-.innerTop {
-  display: flex;
-  justify-content: space-around;
   flex-direction: row-reverse;
-  align-items: flex-start;
-}
-.middle {
-  height: 50vh;
-  height: 50vh;
-  display: flex;
-  width: 90%;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.buttonFun {
-  padding: 38px;
-  border-radius: 72%;
-  width: 185px;
-  height: 150px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  width: 99%;
+  margin-left: 1%
 }
-.aboutBio {
+.nameAndQuick ul{
+  width: 500px;
+  list-style-type: none;
   font-size: 20px;
-  /* width: 90%; */
-  /* text-align: center; */
-  font-family: "Abril Fatface", cursive;
+  font-weight: 500;
+  /* color: rgb(8,16,19); */
 }
-
-.pageTitle {
-  font-size: 500%;
-  color: var(--absent);
-  font-family: "Bondoni";
-}
-.BioTitle {
-  /* width: 25%; */
-  font-size: 500%;
-  text-align: left;
-  color: var(--absent);
-  height: fit-content;
-  font-family: "Bondoni";
-  /* background-color: var(--absent); */
-}
-/* .BioTitle:hover {
-  background-color: var(--cream);
-  transition-duration: 2s;
-  color: var(--absent);
-} */
-.aboutContainers {
-  padding: 4%;
-  border-radius: 3%;
-}
-.aboutSubTitle {
-  font-family: "Abril Fatface", cursive;
-  font-size: 30px;
+.nameAndQuick ul li{
+  margin: 7px 0;
+  font-size: 25px;
+  font-family: "heimat-didone-14", sans-serif;
   font-weight: 600;
-}
-.aboutContext {
-  width: 80%;
-  font-weight: 600;
-  text-align: left;
-  font-family: "Playfair Display", serif;
-}
-.listElement {
-  left: 15%;
-  position: relative;
-  list-style-type: circle;
-}
-.skillsContainer {
-  /* background-color: var(--med); */
-  /* margin: 10% 0 ; */
-  color: var(--absent);
-  width: 90%;
-  text-align: center;
-  /* background-color: var(--absent); */
-  /* transition-duration: 2s; */
-  /* color: var(--cream); */
-  /* border-color: var(--cream); */
-}
-.gifSubText {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 300px;
-}
-.skillsContainer:hover {
-  background-color: var(--absent);
-  transition: 1s ease-out;
-  border-color: var(--med);
-  color: var(--med);
-}
+  font-style: normal;
+  color: rgb(235, 230, 219)
 
-.factContainer {
-  /* width: 23%; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--complete);
-}
-.factTitle {
-  width: 25%;
-}
-.factList {
-  width: 60%;
-  /* list-style-type: circle; */
-  list-style-type: disclosure-closed;
-}
-.shoutOutContainer {
-  background-color: var(--complete);
-  color: var(--cream);
-  width: 50%;
-}
-.shoutOutContainer:hover {
-  background-color: var(--cream);
-  transition-duration: 2s;
-  color: var(--complete);
 }
 .buttonContainer {
   width: 20%;
@@ -171,6 +71,18 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: var(--absent);
+}
+.toolsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+.subText {
+  font-size: 40px;
+  /* color: rgb(8,16,19); */
+  color: rgb(235, 230, 219)
 }
 button {
   padding: 10px;
@@ -215,7 +127,7 @@ button:hover {
   }
 }
 @media screen and (max-width: 425px) {
-  .BioTitle {
+  /* .BioTitle {
     width: 75%;
   }
   .middle {
@@ -231,19 +143,28 @@ button:hover {
   }
   .skillsContainer {
     width: 85%;
-  }
-  .bottom {
+  } */
+  /* .bottom {
     flex-direction: column;
   }
   .shoutOutContainer {
     width: 85%;
     margin-top: 210%;
+  } */
+  .nameAndQuick ul li{
+    font-size: 20px;
+    width: 350px;
   }
+
   .buttonContainer {
     width: 50%;
     margin-top: 10%;
     left: 20%;
     position: relative;
+  }
+  .chipContainer {
+    height: 300px;
+    width: 300px;
   }
 }
 @media screen and (max-width: 375px) {
