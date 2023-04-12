@@ -72,18 +72,7 @@ font-style: normal;
   justify-content: center;
   background-color: var(--absent);
 }
-.toolsContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5% 0;
-}
-.subText {
-  font-size: 40px;
-  /* color: rgb(8,16,19); */
-  color: rgb(235, 230, 219)
-}
+
 button {
   padding: 10px;
   color: #4d6879;
@@ -163,7 +152,7 @@ button:hover {
     position: relative;
   }
   .chipContainer {
-    height: 300px;
+    /* height: 300px; */
     width: 300px;
   }
 }

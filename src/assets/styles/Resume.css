@@ -15,7 +15,7 @@
 
 .resumeSize {
   margin-bottom: 30px;
-  border: solid 3px rgb(8,16,19);
+  border: solid 3px rgb(235, 230, 219);
 
 }
 .buttonContainers {
@@ -24,25 +24,7 @@
   align-items: center;
   justify-content: center;
 }
-.chipContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: rgb(8,16,19);
-  height: 150px;
-  padding: 10px;
-  border-radius: 8px;
-}
-.chip {
-  font-weight: 500;
-  height: fit-content;
-  padding: 10px;
-  font-size: 20px;
-  margin: 2px;
-  background-color: rgb(235,230,219);
-  border-radius: 10%;
-}
+
 @media screen and (max-width: 425px) {
   .resumeSize {
     /* transform: scale(0.5); */

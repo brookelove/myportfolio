@@ -1,9 +1,8 @@
 import { React, useEffect, useState } from "react";
 import "../assets/styles/Contact.css";
 import Navbar from "../components/Navbar";
-import Logo from "../assets/images/contactHeader.jpg";
-import LinkdIn from "../assets/images/hand2.png";
-import GitHub from "../assets/images/GitHub.svg";
+import Logo from "../assets/images/Contact/contactHeader.jpg";
+import LinkdIn from "../assets/images/Contact/hand2.png";
 
 export default function Contact() {
   return (

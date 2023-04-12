@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/Landing.css";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/JustComputer.jpg";
+import Logo from "../assets/images/Logo/JustComputer.jpg";
 import "animate.css";
 
 export default function Landing() {

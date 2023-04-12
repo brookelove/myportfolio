@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Project from "./Project";
 import "../assets/styles/Work.css";
+import { useNavigate } from "react-router-dom";
+import { projectData } from "../data/ProjectData";
+
 export default function Work() {
+  const [currentProj, setCurrentProject] = useState([]);
+  const navigate = useNavigate();
+  // const indProject = (projName) => {
+  //   projectData.filter((project) => {
+  //     if (project.projectTitle == projName) {
+  //       setCurrentProject(project);
+  //       <Project state={project} />;
+  //       window.location.href = `/project`;
+  //     }
+  //   });
+  // };
   return (
     <div className="blackBackground">
       <div className="workContainer">
@@ -16,7 +31,7 @@ export default function Work() {
         </div>
         {/* container for the project title */}
         <div className="projectContainer">
-          <a href="/project01" className="workAnchor">
+          {/* <a href="/project01" className="workAnchor">
             <h1 className="projectTitle">
               <button className="projectLink">the W.</button>
             </h1>
@@ -41,7 +56,41 @@ export default function Work() {
                 Booklastic
               </button>
             </h1>
-          </a>
+          </a> */}
+          {projectData.map((project) => {
+            return (
+              <a
+                className="workAnchor"
+                // onClick={() => indProject(project.projectTitle)}
+                onClick={() => {
+                  navigate("/project", {
+                    replace: true,
+                    state: {
+                      title: project.projectTitle,
+                      blurb: project.blurb,
+                      description: project.description,
+                      tools: project.tools,
+                      bigImage: project.bigImage,
+                      small01: project.smallImage01,
+                      small02: project.smallImage02,
+                      github: project.github,
+                      website: project.weblink,
+                    },
+                  });
+                }}
+                key={project.id}
+              >
+                <h1 className="projectTitle">
+                  <button
+                    // href="/project04"
+                    className="projectLink"
+                  >
+                    {project.projectTitle}
+                  </button>
+                </h1>
+              </a>
+            );
+          })}
           {/* <a href="/project01" className="workAnchor">
             <h1 className="projectTitle">
               <button href="/project05" className="projectLink">

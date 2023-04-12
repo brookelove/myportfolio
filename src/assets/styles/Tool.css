@@ -1,0 +1,39 @@
+.toolsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    background-color: #212526;
+      padding: 20px;
+      border-radius: 19px;
+}
+.subHeaders {
+    font-size: 45px;
+    color: rgb(235, 230, 219)
+  }
+.subText {
+    font-size: 40px;
+    /* color: rgb(8,16,19); */
+    padding: 20px 0 0 0;
+    color: rgb(235, 230, 219)
+  }
+  .chipContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(8,16,19);
+    /* height: 150px; */
+    /* padding: 10px; */
+    border-radius: 8px;
+  }
+  .chip {
+    font-weight: 500;
+    height: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgb(235,230,219);
+    border-radius: 10%;
+  }

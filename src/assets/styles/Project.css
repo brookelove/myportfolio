@@ -1,9 +1,4 @@
 .project01LandingBeigeBkgrd {
-  height: 300vh;
-  background-color: var(--absent);
-}
-.project04LandingBeigeBkgrd {
-  height: 350vh;
   background-color: var(--absent);
 }
 .ProjectContainer {
@@ -29,7 +24,7 @@
   justify-content: center;
 }
 .linksToProject {
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: none;
   color: var(--cream);
   margin: 30px 100px 0 100px;
@@ -59,45 +54,21 @@
   display: flex;
   justify-content: center;
 }
-.project01BigImage {
-  left: 20%;
-  margin: 2%;
-  width: 300px;
-  height: 400px;
+.projectMainImage {
   display: flex;
-  position: relative;
+  justify-content: center;
 }
-.project01SmallImage01 {
+.projectImage{
+  width: 50%;
+}
+.projectLeftImage {
   left: 10%;
   margin-top: 2%;
-  width: 300px;
-  height: 400px;
   display: flex;
   position: relative;
 }
-.project01SmallImage02 {
+.projectRightImage {
   left: 40%;
-  /* margin-top: 2%; */
-  width: 300px;
-  height: 400px;
-  bottom: 10%;
-  z-index: 2;
-  display: flex;
-  position: relative;
-}
-.project04smallImage01 {
-  left: 0;
-  margin-top: 2%;
-  width: 300px;
-  height: 400px;
-  display: flex;
-  position: relative;
-}
-.project04smallImage02 {
-  left: 35%;
-  /* margin-top: 2%; */
-  width: 300px;
-  height: 400px;
   bottom: 5%;
   z-index: 2;
   display: flex;
@@ -120,10 +91,10 @@
   position: relative;
   left: 30%;
 }
+.projectButton {
+  padding: 0 0 70px 0;
+}
 @media screen and (max-width: 1200px) {
-  .project01LandingBeigeBkgrd {
-    height: 340vh;
-  }
   .outsideContianer {
     position: relative;
     top: -50%;
@@ -162,10 +133,7 @@
   }
   .project04smallImage02 {
     transform: scale(0.7);
-    left: 10%;
+    left: 5%;
     bottom: 4%;
-  }
-  .project01LandingBeigeBkgrd {
-    height: 360vh;
   }
 }

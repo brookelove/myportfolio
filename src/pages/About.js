@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import myPhoto from "../assets/images/me.png";
-import aboutHeader from "../assets/images/aboutHeader.jpg";
+import myPhoto from "../assets/images/About/me.png";
+import aboutHeader from "../assets/images/About/aboutHeader.jpg";
 import Resume from "../components/Resume";
 
 import "../assets/styles/About.css";
