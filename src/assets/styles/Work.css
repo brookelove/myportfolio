@@ -8,26 +8,32 @@
   background-color: var(--absent);
 }
 .workContainer {
-  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   color: var(--complete);
   justify-content: space-around;
   align-items: flex-end;
   background-repeat: no-repeat;
-  background-image: url("../images/WorkHeader.png");
-  background-size: 40%;
+}
+.workContent{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 .workTextContainer {
-  right: 1%;
-  width: 25%;
-  padding: 2%;
-  height: 100%;
-  border-radius: 3%;
-  margin-bottom: 10%;
-  position: relative;
-  height: fit-content;
+  /* position: relative;
+  height: fit-content; */
+  margin-top: 300px;
+  
+}
+.workImage{
+  width: 400px;
+}
+.workText{
   background-color: rgba(251, 251, 251, 0.856);
+  padding: 5%;
+  width:400px;
+
 }
 .projectContainer {
   background-color: var(--absent);
@@ -42,6 +48,7 @@
 }
 .workAnchor {
   text-decoration: none;
+  margin:10px;
 }
 .projectLink {
   color: var(--cream);
@@ -65,27 +72,62 @@
   color: inherit;
 }
 @media screen and (max-width: 768px) {
-  .workContainer {
-    background-size: 55%;
+  .workTextContainer{
+    margin-top:200px;
   }
+  /* .workImage, .workText {
+    width: 400px;
+  } */
+  /* .workText {
+    height:90px;
+  } */
   .pageTitle {
     font-size: 400%;
+    
   }
 }
-@media screen and (max-width: 550px) {
-  .blackBackground {
-    height: 210vh;
-  }
-  .workContainer {
-    background-size: 100%;
-  }
+@media screen and (max-width: 425px) {
   .workTextContainer {
-    width: 70%;
-    position: relative;
-    top: 50%;
+    /* position: relative; */
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
   }
-  .projectContainer {
-    position: relative;
-    top: 65%;
+  .workContainer{
+    align-items: flex-start;
+  }
+  .workContent{
+    display:block;
+  }
+  .workText {
+    width:290px
+  }
+  .workImage{
+    width: 290px;
+    margin-right: 10px;
+  }
+  .projectContainer{
+    width: 100%
+  }
+}
+@media  screen and (max-width: 375px){
+  .workText {
+    /* margin-right: 62px; */
+    width: 258px;
+  }
+  .projectContainer{
+    width: 93%;
+  }
+}
+@media  screen and (max-width: 320px) {
+  /* .workTextContainer{
+    flex-direction: column;
+  } */
+  .workImage, .workText {
+    width: 220px;
+    margin-right: 15px;
   }
 }

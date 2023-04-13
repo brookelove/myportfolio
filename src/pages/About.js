@@ -16,20 +16,23 @@ export default function About() {
           <img src={aboutHeader} className="aboutHeader"></img>
 
           <div className="nameAndQuick">
-            <ul>
-              <p className="subText">QUICK PEEK:</p>
-              <li>
-                My background is in biology with a focus in Zoology and animals
-              </li>
-              <li>I love to coook and bake with my family</li>
-              <li>
-                My favorite language is JavaScrpit even though it did not start
-                out that way
-              </li>
-              <li>
-                I am currently pursuing my Masters's in Software Development
-              </li>
-            </ul>
+            <div>
+              <p className="subText subTextQ">QUICK PEEK:</p>
+              <ul>
+                <li>
+                  My background is in biology with a focus in Zoology and
+                  animals
+                </li>
+                <li>I love to coook and bake with my family</li>
+                <li>
+                  My favorite language is JavaScrpit even though it did not
+                  start out that way
+                </li>
+                <li>
+                  I am currently pursuing my Masters's in Software Development
+                </li>
+              </ul>
+            </div>
             <img
               className="myPhoto"
               src={myPhoto}

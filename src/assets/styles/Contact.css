@@ -31,29 +31,23 @@
   list-style-type: none;
   padding-top: 2%;
 }
-.contactLinks {
+.contactLinks{
+  background-color: rgba(235, 230, 219);
+  padding: 5%;
+  /* top: 60%; */
+  border-radius: 0 0 0 60%;
+  list-style-type: none;
   font-size: 20px;
   font-weight: 400;
   color: var(--absent);
   text-decoration: none;
   text-align: center;
 }
+.giphy-embed {
+  border-radius: 0 60% 0 0 ;
+}
 .contactLinks:hover {
   text-decoration: underline;
-}
-.arms {
-  width: 30%;
-  transform: rotate(90deg);
-}
-.contactLinks{
-  background-color: rgba(235, 230, 219, 0.611);
-  padding: 5%;
-  position: absolute;
-  top: 60%;
-  /* width: 20%; */
-  border-radius: 3%;
-  list-style-type: none;
- 
 }
 .contactLinks li {
   margin: 5px 0;
@@ -66,51 +60,40 @@
   color: rgb(235, 230, 219)
 }
 @media screen and (max-width: 768px) {
-  .contactContainer {
-    position: relative;
-    bottom: 705px;
-  }
-  .logoTitle {
-    transform: scale(0.9);
-  }
-  .QRcodes {
-    transform: scale(0.6);
+  .contactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 425px) {
-  .nav {
+  .contactOuterDiv{
+    display:flex;
+    justify-content: space-between;
+  }
+  .contactContainer{
+    height: 100%;
     position: relative;
-    top: 10%;
+    bottom: 80px;
+    left: 30px;
   }
-  .contactBackground {
-    /* background-color: #efebe0; */
-    height: 180vh;
-    /* background-size: 300%; */
+  .giphy-embed {
+    width: 300px;
   }
-  .contactContainer {
-    margin-top: 600px;
-    display: flex;
-    flex-direction: column;
-  }
-  .logoTitle {
-    transform: scale(0.7);
-  }
-  .QRcodes {
+   .nav {
     position: relative;
-    transform: scale(0.6);
+    top: 10px;
+  }
+  .contactLinks{
+    border-radius: 0;
   }
 }
-@media screen and (max-width: 375px) {
-  .contactContainer{
-    display: flex;
-
+@media screen and (max-width: 320px) {
+  .giphy-embed {
+    width: 260px;
+    border-radius: 0;
   }
-  .logoTitle {
-    transform: scale(0.4);
-  }
-  .listNone{
-    position: relative;
-    bottom:170px;
-    left: 40px;
+  .contactLinks {
+    font-size: 15px;
   }
 }

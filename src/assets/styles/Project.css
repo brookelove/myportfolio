@@ -100,7 +100,7 @@
     top: -50%;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 425px) {
   .outsideContianer {
     top: 0;
     width: 85%;
@@ -135,5 +135,19 @@
     transform: scale(0.7);
     left: 5%;
     bottom: 4%;
+  }
+  .linksToProjectContainer{
+    margin: 10% 0 ;
+  }
+  .linksToProject{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:320px) {
+  .linksToProject{
+    margin: 30px 56px 0 30px;
+  }
+  .projectButton {
+    margin-right: 27px;
   }
 }

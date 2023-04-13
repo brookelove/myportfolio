@@ -70,3 +70,15 @@ body {
   font-family: "Bondoni";
   color: rgba(251, 251, 251, 0.856);
 }
+@media screen and (max-width:425px) {
+  .landingLink{
+    font-size: 480%;
+  }
+  
+}
+@media screen and (max-width:320px) {
+  .landingLink{
+    font-size: 387%;
+  }
+
+}

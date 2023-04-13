@@ -50,7 +50,7 @@ const Resume = () => {
           </button>
         </div>
 
-        <button onClick={onDownload}>Click to Download</button>
+        <button className="aboutButton" onClick={onDownload}>Click to Download</button>
       </nav>
     </div>
   );

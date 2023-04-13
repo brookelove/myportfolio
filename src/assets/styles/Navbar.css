@@ -33,8 +33,9 @@
   color: var(--med);
   font-weight: 400;
   font-size: 15px;
-  padding: 2%;
+  padding: 4%;
   background-color: rgba(251, 251, 251, 0.876);
+  height: 20px;
 }
 .leftlink {
   padding: 5px;
